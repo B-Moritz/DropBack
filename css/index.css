@@ -60,23 +60,23 @@ article {
 .section {
   margin-left: 10%;
   margin-right: 10%;
-  width: 50%;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .textbox {
   padding-left: 10%;
   padding-right: 10%;      
-  width: 50%;
+  width: 70%;
   float: left;
 }
 
 .box {
   background-color: darkgrey;
-  padding-left: 10%;
-  padding-right: 10%;
-  width: 50%;
+  margin-top: 60px;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 30%;
   float: right;
 }
 
