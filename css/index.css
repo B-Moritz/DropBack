@@ -52,15 +52,17 @@ article {
   background-color: rgba(200, 200, 200, 1);
   height: auto;
   overflow: auto;
-  width: 100%;
+  width: 100%
 }
 
 .section {
   margin-left: 10%;
   margin-right: 10%;
-
 }
 
-#map {
-  height: 300px;
+#MapImage {
+  background: url("../images/Dropbackdata_wide1920_ilustarsjon.jpg") 30% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
