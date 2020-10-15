@@ -7,6 +7,7 @@
 
 body {
   margin: 0;
+  max-width: 1500px;
 }
 
 header {
@@ -46,18 +47,18 @@ header {
   overflow: auto;
 }
 
-
 article {
   float: left;
   background-color: rgba(200, 200, 200, 1);
   height: auto;
   overflow: auto;
+  width: 100%;
 }
 
 .section {
   margin-left: 10%;
   margin-right: 10%;
-  max-width: 80%;
+
 }
 
 #map {
