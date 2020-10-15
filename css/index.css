@@ -19,6 +19,7 @@ header {
   background: url("../images/walking_to_school_Cropped.jpg") 0 0;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
 #Title {
@@ -42,17 +43,23 @@ header {
 }
 
 .imageContainer {
-  height: 100%;
   overflow: auto;
 }
 
 
 article {
-  margin-left: 10%;
-  margin-right: 10%;
   float: left;
   background-color: rgba(200, 200, 200, 1);
-  height: 500px;
+  height: auto;
   overflow: auto;
 }
 
+.section {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 80%;
+}
+
+#map {
+  height: 300px;
+}
