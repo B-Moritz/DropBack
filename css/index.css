@@ -65,6 +65,21 @@ article {
   padding-bottom: 150px;
 }
 
+.textbox {
+  padding-left: 10%;
+  padding-right: 10%;      
+  width: 50%;
+  float: left;
+}
+
+.box {
+  background-color: darkgrey;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 50%;
+  float: right;
+}
+
 #MapImage {
   background: url("../images/Dropbackdata_wide1920_ilustarsjon.jpg") 30% 0;
   background-repeat: no-repeat;
