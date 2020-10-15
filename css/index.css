@@ -21,6 +21,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  background-attachment: fixed;
+  background-position: right;
 }
 
 #Title {
@@ -49,7 +51,7 @@ header {
 
 article {
   float: left;
-  background-color: rgba(200, 200, 200, 1);
+  background-color: white;
   height: auto;
   overflow: auto;
   width: 100%
@@ -58,6 +60,9 @@ article {
 .section {
   margin-left: 10%;
   margin-right: 10%;
+  width: 50%;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 #MapImage {
