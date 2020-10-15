@@ -11,20 +11,20 @@ body {
 
 header {
   background-color: rgba(150, 150, 150, 1);
-  height: 700px;
+  height: 600px;
   overflow: auto;
 }
 
 #TitleImage {
-  background: url("../images/walking_to_school.jpg") 0 -200px;
+  background: url("../images/walking_to_school_Cropped.jpg") 0 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #Title {
   position: absolute;
-  bottom: 200px;
-  left: 100px;
+  bottom: 60%;
+  left: 10%;
   color: white;
 }
 
