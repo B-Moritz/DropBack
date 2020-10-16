@@ -27,17 +27,6 @@ header {
   position: relative;
 }
 
-footer {
-  /*background-color: rgba(200, 200, 200, 1);*/
-  margin-top: 300px;
-
-  text-align: center;
-  padding: 1px;
-  background-color: #d0e4d8;
-  color: black;
-  overflow: auto;
-}
-
 h2 {
   font-size: 30px;
   font-style: normal;
@@ -87,9 +76,12 @@ article {
   padding-bottom: 150px;
 }
 
-.section {
+.sideMarginForText {
   margin-left: 18%;
   margin-right: 18%;
+}
+
+.section {
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -132,23 +124,21 @@ article {
     left: 50px;
   }
 
-  .section {
+  .sideMarginForText {
     margin-left: 50px;
     margin-right: 50px;
   }
+
+}
+
+figure {
+  margin: 0;
 }
 
 #MapImage {
-  background: url("../images/Dropbackdata_wide1920_ilustarsjon.jpg") 30% 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
+  max-width: 100%;
+  height: auto;
 }
-
-
-.refferenceContainer {
-  columns: 300px 2;
-
 
 footer {
   text-align: center;
