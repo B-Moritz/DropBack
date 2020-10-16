@@ -112,12 +112,22 @@ article {
   overflow: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .textbox {
     width: 100%;
   }
   .box {
     width: 100%;
+  }
+  #Title {
+    left: 50px;
+  }
+  #Sub-title {
+    left: 50px;
+  }
+  .section {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 
