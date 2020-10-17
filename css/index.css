@@ -16,14 +16,7 @@
 }
 
 body {
-  margin: 0;
-}
-
-header {
-  background-color: rgba(150, 150, 150, 1);
-  height: 600px;
-  overflow: auto;
-  position: relative;
+  margin: 0px;
 }
 
 h2 {
@@ -31,9 +24,18 @@ h2 {
   font-style: normal;
 }
 
-.box > h3 {
+h3 {
   font-size: 20px;
   text-align: center;
+}
+
+
+
+/*Styles for header*/
+header {
+  height: 600px;
+  overflow: auto;
+  position: relative;
 }
 
 #TitleImage {
@@ -66,7 +68,11 @@ h2 {
 .imageContainer {
   overflow: auto;
 }
+/*End styles for header*/
 
+
+
+/*Styles for main article*/
 article {
   background-color: white;
   height: auto;
@@ -109,30 +115,41 @@ article {
   font-style: italic;
   overflow: auto;
 }
+/*End styles for main article*/
 
+
+
+/*Styles applied for smaller borwser windows*/
 @media screen and (max-width: 1000px) {
+  /*Main article*/
   .textbox {
     width: 100%;
   }
   .box {
     width: 100%;
   }
-
-  .textContainer {
-    left: 50px;
-  }
-
   .sideMarginForText {
     margin-left: 50px;
     margin-right: 50px;
+  }
+  /*End main article*/
+
+
+  /*Header*/
+  .textContainer {
+    left: 50px;
   }
 
   #Title {
     margin-bottom: 12vw;
   }
-
+  /*End header*/
 }
+/*End styles applied for smaller browser windows*/
 
+
+
+/*Styles for map image in main article*/
 figure {
   margin: 0;
 }
@@ -141,7 +158,10 @@ figure {
   max-width: 100%;
   height: auto;
 }
+/*End styles for map image*/
 
+
+/*Styles for the footer*/
 footer {
   text-align: center;
   padding: 1px;
@@ -164,3 +184,4 @@ footer {
   height: 175px;
   float: right;
 }
+/*End styles for footer*/
