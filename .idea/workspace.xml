@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="463ec82a-e943-4bfa-b4d4-7aee5a06d100" name="Default Changelist" comment="Endret margin når max-width &lt; 800px.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +47,23 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Tobias\IdeaProjects\DropBack\fonts" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DropBack/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,6 +78,7 @@
       <workItem from="1602778703988" duration="447000" />
       <workItem from="1602846061996" duration="11457000" />
       <workItem from="1602857650119" duration="1518000" />
+      <workItem from="1603113770232" duration="1297000" />
     </task>
     <task id="LOCAL−00001" summary="Fjernet max-width i css body.">
       <created>1602778845007</created>
@@ -110,6 +123,74 @@
     <option name="LAST_COMMIT_MESSAGE" value="Endret margin når max-width &lt; 800px." />
   </component>
   <component name="WindowStateProjectService">
+    <state width="856" height="128" key="GridCell.Tab.0.bottom" timestamp="1603114786738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786738" />
+    <state width="856" height="128" key="GridCell.Tab.0.center" timestamp="1603114786738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786738" />
+    <state width="856" height="128" key="GridCell.Tab.0.left" timestamp="1603114786738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786738" />
+    <state width="856" height="128" key="GridCell.Tab.0.right" timestamp="1603114786738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786738" />
+    <state width="856" height="128" key="GridCell.Tab.1.bottom" timestamp="1603114786644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786644" />
+    <state width="856" height="128" key="GridCell.Tab.1.center" timestamp="1603114786644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786644" />
+    <state width="856" height="128" key="GridCell.Tab.1.left" timestamp="1603114786644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786644" />
+    <state width="856" height="128" key="GridCell.Tab.1.right" timestamp="1603114786644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786644" />
+    <state width="856" height="128" key="GridCell.Tab.2.bottom" timestamp="1603114786644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786644" />
+    <state width="856" height="128" key="GridCell.Tab.2.center" timestamp="1603114786644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786644" />
+    <state width="856" height="128" key="GridCell.Tab.2.left" timestamp="1603114786644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786644" />
+    <state width="856" height="128" key="GridCell.Tab.2.right" timestamp="1603114786644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786644" />
+    <state width="856" height="128" key="GridCell.Tab.3.bottom" timestamp="1603114786645">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786645" />
+    <state width="856" height="128" key="GridCell.Tab.3.center" timestamp="1603114786645">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786645" />
+    <state width="856" height="128" key="GridCell.Tab.3.left" timestamp="1603114786644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786644" />
+    <state width="856" height="128" key="GridCell.Tab.3.right" timestamp="1603114786645">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="856" height="128" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603114786645" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1603113821474">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1603113821474" />
     <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1602858783960">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
