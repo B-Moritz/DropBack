@@ -1,3 +1,9 @@
+/*
+This website was created with the text editors:
+  Atom (https://atom.io/)
+  WebStorm (https://www.jetbrains.com/webstorm/)
+*/
+
 @font-face {
   font-family: eina;
   src: url("../fonts/eina_regular.woff2");
@@ -39,7 +45,7 @@ header {
 }
 
 #TitleImage {
-  background: url("../images/walking_to_school_Cropped.jpg") 0 0;
+  background: url("./../images/walking_to_school_Cropped.jpg") 0 0;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -204,7 +210,6 @@ footer {
   color: black;
   overflow: auto;
 }
-
 
 #Footer-text p {
   font-size: 16px;
