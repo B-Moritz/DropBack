@@ -87,8 +87,8 @@ article {
 }
 
 .row {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 0px;
 }
 
 .row:after {
@@ -163,6 +163,35 @@ figure {
 #MapImage {
   max-width: 100%;
   height: auto;
+}
+
+.imageDescription {
+  font-style: normal;
+  margin-top: 0;
+}
+
+figcaption p {
+  font-size: 15px;
+}
+
+figcaption > div {
+  width: 100%;
+  clear: both;
+}
+
+.redDot {
+  float: left;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  padding-top: 5px;
+}
+
+.redDotText {
+  float: left;
+  width: auto;
+  margin: 0;
+  padding-left: 10px;
 }
 /*End styles for map image*/
 
