@@ -98,7 +98,6 @@ article {
 }
 
 .textbox {
-  padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 50px;
   width: 70%;
@@ -148,6 +147,13 @@ article {
 /*End styles applied for smaller browser windows*/
 
 
+#ImageUnderText {
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
 
 /*Styles for map image in main article*/
 figure {
@@ -160,6 +166,7 @@ figure {
 }
 /*End styles for map image*/
 
+}
 
 /*Styles for the footer*/
 footer {
@@ -169,6 +176,8 @@ footer {
   color: black;
   overflow: auto;
 }
+
+
 
 #Footer-text p {
   font-size: 16px;
