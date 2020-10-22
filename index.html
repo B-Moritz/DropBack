@@ -7,16 +7,15 @@
     <link type="text/css" rel="Stylesheet" href="css/index.css">
   </head>
   <body>
-    <header>
-      <div id="TitleImage" class="imageContainer">
-        <div class="textContainer">
-          <h1 id="Title">Dropback</h1>
-          <p id="Sub-title">Data for better education<br> and attendance.</p>
-        </div>
+    <header role="banner">
+      <div role="img" aria-label="An image of three kids walking to school in a Africa" id="TitleImage" class="imageContainer"></div>
+      <div class="textContainer">
+        <h1 id="Title">Dropback</h1>
+        <p id="Sub-title">Data for better education<br> and attendance.</p>
       </div>
     </header>
-    <article>
-      <div class="section">
+    <article role="article">
+      <div class="row sideMarginForText">
         <h2>What's our mission?</h2>
         <p>
           In 2012 Save The Children came in contact with the only teacher at one of their mobile schools in Babile.
@@ -32,38 +31,49 @@
           They have most of the data, but lack a way to reach the right and influential people who can help resolve this issue.
         </p>
       </div>
-      <div id="MapImage" class="imageContainer"></div>
-      <div id="ImageUnderText"><p>Dropback data illustration (Source: Google Maps)</p></div>
-      <div class="section" class="row">
+      <figure role="group" class="row">
+        <p>Dropback data illustration (Source: Google Maps)</p>
+        <picture>
+          <source srcset="./images/Dropbackdata_wide1920_ilustarsjon_600.jpg" media="only screen and (max-width: 600px)">
+          <source srcset="./images/Dropbackdata_wide1920_ilustarsjon_1000.jpg" media="only screen and (max-width: 1000px)">
+          <img id="MapImage" src="./images/Dropbackdata_wide1920_ilustarsjon.jpg" alt="Screenshot showing how our solution displays relations between attendance problems and underlying problems.">
+        </picture>
+        <figcaption class="sideMarginForText">
+          This image shows how our solution highlights
+          areas on a map, indicating relations between
+          attendance problems and an underlying problem in that particular area.
+          The red dots represent attendance problems. The coloured areas represent an underlying problem.
+        </figcaption>
+      </figure>
+      <div class="row sideMarginForText">
         <div class="textbox">
-        <h2>Our Solution</h2>
-        <p>
-          Dropback is a platform that will collect existing data and visualize it for teachers and
-          politicians for preventive use. By using HDX, we can add geographical data to existing attendance and
-          enrollment data in developing countries. This will enable Save the Children to detect and understand
-          underlying social and economic problems contributing to children dropping out. An example of this would be
-          to cross-reference data on food price and availability, with attendance data for students from a given region.
-          This would make it possible to intervene earlier to ensure continued enrollment and attendance.
-        </p>
+          <h2>Our Solution</h2>
+          <p>
+            Dropback is a platform that will collect existing data and visualize it for teachers and
+            politicians for preventive use. By using HDX, we can add geographical data to existing attendance and
+            enrollment data in developing countries. This will enable Save the Children to detect and understand
+            underlying social and economic problems contributing to children dropping out. An example of this would be
+            to cross-reference data on food price and availability, with attendance data for students from a given region.
+            This would make it possible to intervene earlier to ensure continued enrollment and attendance.
+          </p>
         </div>
-        <div class="box">
+        <div role="definition" class="box">
           <h3>What's HDX?</h3>
           <p>
-          <ul>
-            <li>The Humanitarian Data Exchange (HDX) is an open platform
-              for sharing humanitarian data.</li>
+            <ul>
+              <li>The Humanitarian Data Exchange (HDX) is an open platform
+                for sharing humanitarian data.</li>
 
-          <li>Detect and understand underlying social and economic problems
-              contributing to children dropping out. </li>
+            <li>Detect and understand underlying social and economic problems
+                contributing to children dropping out. </li>
 
-            <li>Intervene earlier to ensure continued enrollment and attendance.</li>
-          </ul>
-
+              <li>Intervene earlier to ensure continued enrollment and attendance.</li>
+            </ul>
           </p>
         </div>
       </div>
     </article>
-    <footer>
+    <footer role="contentinfo">
       <div id="Footer-text">
         <div class="left">
           <h4><strong>Authors</strong></h4>
